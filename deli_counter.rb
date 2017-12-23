@@ -18,3 +18,11 @@ def take_a_number(arr, customer)
   arr << customer
   puts "Welcome, #{customer}. You are number #{arr.size} in line."
 end
+
+def now_serving
+  if arr.size == 0
+    "There is nobody waiting to be served!"
+  else
+    arr.shift
+end
+
