@@ -7,6 +7,7 @@ def line(arr)
         output << "#{index+1}. #{customer} "
       else
         output << "#{index+1}. #{customer}"
+      end
     end
     puts output
   else
