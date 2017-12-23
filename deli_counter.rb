@@ -1,9 +1,11 @@
 # Write your code here.
 def line(arr)
   if arr.size > 0
+    output = "The line is currently: "
     arr.each_with_index do |customer, index|
-      puts "The line is currently: #{index+1}. #{customer}"
+      output << "#{index+1}. #{customer}"
     end
+    return output
   else
     puts "The line is currently empty."
   end
