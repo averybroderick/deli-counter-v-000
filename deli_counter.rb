@@ -5,7 +5,7 @@ def line(arr)
     arr.each_with_index do |customer, index|
       output << "#{index+1}. #{customer}"
     end
-    return output
+    puts output
   else
     puts "The line is currently empty."
   end
