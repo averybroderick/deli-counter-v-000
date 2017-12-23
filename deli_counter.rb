@@ -16,5 +16,5 @@ end
 
 def take_a_number(arr, customer)
   arr << customer
-  return "Hello #{customer} you are #{arr.size}th in line."
+  return "Welcome, #{customer}. You are number #{arr.size} in line."
 end
