@@ -1,4 +1,3 @@
-# Write your code here.
 def line(arr)
   if arr.size > 0
     output = "The line is currently: "
