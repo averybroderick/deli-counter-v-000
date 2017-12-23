@@ -24,4 +24,5 @@ def now_serving
     "There is nobody waiting to be served!"
   else
     arr.shift
+  end
 end
