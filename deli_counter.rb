@@ -13,3 +13,8 @@ def line(arr)
     puts "The line is currently empty."
   end
 end
+
+def take_a_number(arr, customer)
+  arr << customer
+  return "Hello #{customer} you are #{arr.size}th in line."
+end
