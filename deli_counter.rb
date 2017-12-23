@@ -3,6 +3,6 @@ def line(arr)
   if arr.size
     puts arr
   else
-    "The line is empty"
+    "The line is currently empty."
   end
 end
